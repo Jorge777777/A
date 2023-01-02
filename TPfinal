@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>React + TypeScript + Replit</title>
+  </head>
+  <body><b>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+		
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  </body>
+</html>
+<hr><hr><hr>
+
+<div class="container text-center">
+  <div class="row">
+   <div class="col align-self-center">
+      One of three columns
+<h3>FORMULARIO DE PEDIDO</h3><hr>
+
+LA FECHA DE ENTREGA SERÁ COORDINADA TELEFÓNICAMENTE<hr>
+
+<h3>TU PEDIDO </h3><hr>
+
+<label for="firstname">Nombre:</label>
+<input size="0" type="text" name="firstname" placeholder="ingrese su nombre aquí"><hr>
+
+<label for="lastname">Apellido:</label>
+<input size="0" type="text" name="lasttname" placeholder="ingrese su apellido aquí"><hr>
+
+<label for="Clave">Nombre de Usuario </label>
+<input type="password" name="clave" placeholder="ingrese su @Usuario"><hr>
+
+<label for="mail">Email(optional)</label>
+<input type="email" name="mail" placeholder="ingrese su email@gmail.com aquí"><hr>
+
+<label for="destino ">Lugar de entrega </label>
+<input type="destino" name="destiny" placeholder="ingrese su Calle y n' aquí"><hr>
+
+Provincia
+<div class="content-select">
+	<select>
+		<option>Buenos Aires</option>
+		<option>Entre Rios</option>
+		<option>Santa Fe</option>
+	</select>
+	<i></i>
+</div><hr>
+
+Localidad
+<div class="content-select">
+	<select>
+		<option>Banfield</option>
+		<option>Gualeguay</option>
+		<option>Santo Tomé</option>
+	</select>
+	<i></i>
+</div><hr>
+
+FORMA DE PAGO <hr>
+
+<input type="radio"  name="."  value=".">option1 TARJETA DE CRÉDITO <hr>
+
+<input type="radio"  name="."  value=".">option2 MERCADO PAGO <hr>
+
+<label for="titular">Nombre del titular de la tarjeta :</label>
+<input size="0" type="text" name="titular" placeholder="nombre como se muestra en la tarjeta"><hr>
+
+<label for="cardnumber">Número de la tarjeta :</label>
+<input size="0" type="text" name="cardnumber" placeholder="ingrese su cardnumber aquí"><hr>
+
+<label for="vencimiento ">Fecha de vencimiento:</label>
+<input size="0" type="text" name="vencimiento" placeholder="ingrese su vencimiento aquí"><hr>
+
+<label for="Código ">Código :</label>
+<input size="0" type="text" name="Código "
+  placeholder="ingrese su código aquí">fin
+<hr>
+
+      One of three columns<hr><hr><hr>
+    </div></div></div>
+    
+    
+<div class="container">
+<form class="row mt-3 m-3 needs-validation" novalidatexdxdxd>
+<div class="col-12">
+<label for="nameId" class="form-label">Nombre</label></div>
+<input type= "text" class= form-control id="nameId" required>
+<div class= "valid-feedback">Todo Bien</div>
+<div class="invalid-feedback">
+Es necesario poner el nombre<hr>
+</div></div>
+
+<div class="col-12">
+<label for="surnameId" class="form-label">Apellido</label>
+<input type= "text" class="form-control" id="surnameId" required>
+<div class="valid-feedback">
+Todo bien
+</div>
+
+<div class="invalid-feedback">
+Es necesario poner el apellido<hr>
+</div>
+
+<div class="col-12">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" id="terms" required><label>
+<label for="terms" class="form-check-label"> acepto los términos y condiciones </label>
+<div class="valid-feedback">
+Todo bien
+</div>
+<div class="invalid-feedback">
+Es necesario aceptar los terminos<hr>
+</div></div></div>
+
+<button type="submit" class="btn btn-primary">Enviar</button></form></div></body></html>
+<hr><hr><hr>
+
+
+<html>
+<body>
+<h3>Elemento datalist</h3>
+<form action="/action_page.php" method="get">
+<label for="editor">Provincia</label>
+<input list="editors" name="editor" Id="
